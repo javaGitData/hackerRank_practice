@@ -10,7 +10,8 @@ public class Test {
 
 		      // create an array of strings
 		      String a[] = new String[]{"abc","pqr","klm","xyz"};
-
+			int len =  a.length;
+		     System.out.println(len);
 		      List list1 = Arrays.asList(a);
 
 		      // printing the list
